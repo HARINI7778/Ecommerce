@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Nostra</title>
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Font Awesome Icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar">
+        <h1>Nostra</h1>
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collection.html">Collections</a></p>
+            <p class="navbar-link"><a href="cart.html">Cart</a></p>
+            
+            
+        </div>
+        <div class="navbar-menu-toggle" onclick="showNavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <!--Contact Form-->
+    <div class="contact-section">
+        <h2>Contact Us</h2>
+        <p>Have any questions? Feel free to contact us!</p>
+        <form class="contact-form" id="contactForm">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p id="formResponse"></p>
+    </div>
+
+    <!--Footer-->
+    <div class="footer">
+        <div class="footer.container">
+            <div class="footer-box-1">
+                <h2 class="headingText">Nostra</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias error dolore reiciendis modi!</p>
+                <div class="footer-icon-container">
+                    <i class="fa-brands fa-instagram" style="color:#ffffff"></i>
+                    <i class="fa-brands fa-twitter" style="color:#ffffff"></i>
+                    <i class="fa-brands fa-facebook" style="color:#ffffff"></i>
+                    <i class="fa-brands fa-whatsapp" style="color:#ffffff"></i>
+                </div>
+            </div>
+        </div>
+        <p>@2024 Nostra.com</p>
+    </div>
+
+    <script src="contact.js"></script>
+</body>
+</html>
